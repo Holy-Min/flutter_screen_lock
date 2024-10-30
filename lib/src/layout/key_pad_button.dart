@@ -44,7 +44,7 @@ class KeyPadButton extends StatelessWidget {
     return Container(
       height: config.size,
       width: config.size,
-      margin: const EdgeInsets.all(20),
+      margin: EdgeInsets.symmetric(horizontal: 30, vertical: 15),
       child: OutlinedButton(
         onPressed: onPressed,
         onLongPress: onLongPress,
